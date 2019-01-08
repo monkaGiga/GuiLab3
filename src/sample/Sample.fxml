@@ -6,8 +6,9 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<GridPane alignment="center" hgap="10" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="300.0" minWidth="300.0" prefHeight="300.0" prefWidth="300.0" stylesheets="/sample/sample.css" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.BackEnd">
-    <Button fx:id = "button" onAction="#Click" prefHeight="200.0" prefWidth="200.0" text="Click Here To Start" />
+<GridPane alignment="center" hgap="10" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="300.0" minWidth="300.0" prefHeight="500.0" prefWidth="500.0" stylesheets="/sample/sample.css" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.BackEnd">
+    <Button fx:id="button" onAction="#Click" prefHeight="200.0" prefWidth="350.0" text="Start Clicking!" visible="false"/>
+    <Button fx:id="button2" onAction="#firstClick" prefHeight="200.0" prefWidth="350.0" text="Click Here To Start" visible="true"/>
     <Label fx:id="score" GridPane.rowIndex="1" />
 
    <columnConstraints>
